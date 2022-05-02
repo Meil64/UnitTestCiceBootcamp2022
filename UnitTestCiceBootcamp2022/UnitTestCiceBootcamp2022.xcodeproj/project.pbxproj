@@ -8,26 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		2C1261D9281FF49B00B46386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261D8281FF49B00B46386 /* AppDelegate.swift */; };
-		2C1261DB281FF49B00B46386 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261DA281FF49B00B46386 /* SceneDelegate.swift */; };
-		2C1261DD281FF49B00B46386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261DC281FF49B00B46386 /* ViewController.swift */; };
-		2C1261E0281FF49B00B46386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1261DE281FF49B00B46386 /* Main.storyboard */; };
 		2C1261E2281FF4A200B46386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1261E1281FF4A200B46386 /* Assets.xcassets */; };
 		2C1261E5281FF4A200B46386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1261E3281FF4A200B46386 /* LaunchScreen.storyboard */; };
+		2C1261F0281FF7C900B46386 /* UnitTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261EE281FF7C900B46386 /* UnitTestViewController.swift */; };
+		2C1261F1281FF7C900B46386 /* UnitTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C1261EF281FF7C900B46386 /* UnitTestViewController.xib */; };
+		2C1261F3281FF7DF00B46386 /* UnitTestCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261F2281FF7DF00B46386 /* UnitTestCoordinator.swift */; };
+		2C1261F5281FFB0E00B46386 /* UnitTestPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261F4281FFB0E00B46386 /* UnitTestPresenter.swift */; };
+		2C1261F7281FFBAC00B46386 /* AppCoreCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261F6281FFBAC00B46386 /* AppCoreCoordinator.swift */; };
+		2C1261FF281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1261FE281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.swift */; };
+		2C1262092820158F00B46386 /* UnitTestPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1262082820158F00B46386 /* UnitTestPresenterTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C126200281FFD7F00B46386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C1261CD281FF49B00B46386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C1261D4281FF49B00B46386;
+			remoteInfo = UnitTestCiceBootcamp2022;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C1261D5281FF49B00B46386 /* UnitTestCiceBootcamp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestCiceBootcamp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1261D8281FF49B00B46386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C1261DA281FF49B00B46386 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C1261DC281FF49B00B46386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C1261DF281FF49B00B46386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C1261E1281FF4A200B46386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1261E4281FF4A200B46386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C1261E6281FF4A200B46386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1261EE281FF7C900B46386 /* UnitTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestViewController.swift; sourceTree = "<group>"; };
+		2C1261EF281FF7C900B46386 /* UnitTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnitTestViewController.xib; sourceTree = "<group>"; };
+		2C1261F2281FF7DF00B46386 /* UnitTestCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCoordinator.swift; sourceTree = "<group>"; };
+		2C1261F4281FFB0E00B46386 /* UnitTestPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPresenter.swift; sourceTree = "<group>"; };
+		2C1261F6281FFBAC00B46386 /* AppCoreCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoreCoordinator.swift; sourceTree = "<group>"; };
+		2C1261FC281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestCiceBootcamp2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C1261FE281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestCiceBootcamp2022Tests.swift; sourceTree = "<group>"; };
+		2C1262082820158F00B46386 /* UnitTestPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2C1261D2281FF49B00B46386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1261F9281FFD7F00B46386 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1261D7281FF49B00B46386 /* UnitTestCiceBootcamp2022 */,
+				2C1261FD281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests */,
 				2C1261D6281FF49B00B46386 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				2C1261D5281FF49B00B46386 /* UnitTestCiceBootcamp2022.app */,
+				2C1261FC281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +84,50 @@
 		2C1261D7281FF49B00B46386 /* UnitTestCiceBootcamp2022 */ = {
 			isa = PBXGroup;
 			children = (
-				2C1261D8281FF49B00B46386 /* AppDelegate.swift */,
-				2C1261DA281FF49B00B46386 /* SceneDelegate.swift */,
-				2C1261DC281FF49B00B46386 /* ViewController.swift */,
-				2C1261DE281FF49B00B46386 /* Main.storyboard */,
+				2C1261ED281FF7AE00B46386 /* UnitTestView */,
+				2C1261EC281FF75300B46386 /* CoreApp */,
 				2C1261E1281FF4A200B46386 /* Assets.xcassets */,
 				2C1261E3281FF4A200B46386 /* LaunchScreen.storyboard */,
 				2C1261E6281FF4A200B46386 /* Info.plist */,
 			);
 			path = UnitTestCiceBootcamp2022;
+			sourceTree = "<group>";
+		};
+		2C1261EC281FF75300B46386 /* CoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				2C1261D8281FF49B00B46386 /* AppDelegate.swift */,
+				2C1261F6281FFBAC00B46386 /* AppCoreCoordinator.swift */,
+			);
+			path = CoreApp;
+			sourceTree = "<group>";
+		};
+		2C1261ED281FF7AE00B46386 /* UnitTestView */ = {
+			isa = PBXGroup;
+			children = (
+				2C1261EE281FF7C900B46386 /* UnitTestViewController.swift */,
+				2C1261EF281FF7C900B46386 /* UnitTestViewController.xib */,
+				2C1261F2281FF7DF00B46386 /* UnitTestCoordinator.swift */,
+				2C1261F4281FFB0E00B46386 /* UnitTestPresenter.swift */,
+			);
+			path = UnitTestView;
+			sourceTree = "<group>";
+		};
+		2C1261FD281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C1262052820154E00B46386 /* UnitTestView */,
+				2C1261FE281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.swift */,
+			);
+			path = UnitTestCiceBootcamp2022Tests;
+			sourceTree = "<group>";
+		};
+		2C1262052820154E00B46386 /* UnitTestView */ = {
+			isa = PBXGroup;
+			children = (
+				2C1262082820158F00B46386 /* UnitTestPresenterTests.swift */,
+			);
+			path = UnitTestView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +150,24 @@
 			productReference = 2C1261D5281FF49B00B46386 /* UnitTestCiceBootcamp2022.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2C1261FB281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C126202281FFD7F00B46386 /* Build configuration list for PBXNativeTarget "UnitTestCiceBootcamp2022Tests" */;
+			buildPhases = (
+				2C1261F8281FFD7F00B46386 /* Sources */,
+				2C1261F9281FFD7F00B46386 /* Frameworks */,
+				2C1261FA281FFD7F00B46386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C126201281FFD7F00B46386 /* PBXTargetDependency */,
+			);
+			name = UnitTestCiceBootcamp2022Tests;
+			productName = UnitTestCiceBootcamp2022Tests;
+			productReference = 2C1261FC281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +180,10 @@
 				TargetAttributes = {
 					2C1261D4281FF49B00B46386 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					2C1261FB281FFD7F00B46386 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 2C1261D4281FF49B00B46386;
 					};
 				};
 			};
@@ -116,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				2C1261D4281FF49B00B46386 /* UnitTestCiceBootcamp2022 */,
+				2C1261FB281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +211,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C1261F1281FF7C900B46386 /* UnitTestViewController.xib in Resources */,
 				2C1261E5281FF4A200B46386 /* LaunchScreen.storyboard in Resources */,
 				2C1261E2281FF4A200B46386 /* Assets.xcassets in Resources */,
-				2C1261E0281FF49B00B46386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1261FA281FFD7F00B46386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +231,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1261DD281FF49B00B46386 /* ViewController.swift in Sources */,
+				2C1261F3281FF7DF00B46386 /* UnitTestCoordinator.swift in Sources */,
+				2C1261F7281FFBAC00B46386 /* AppCoreCoordinator.swift in Sources */,
+				2C1261F0281FF7C900B46386 /* UnitTestViewController.swift in Sources */,
+				2C1261F5281FFB0E00B46386 /* UnitTestPresenter.swift in Sources */,
 				2C1261D9281FF49B00B46386 /* AppDelegate.swift in Sources */,
-				2C1261DB281FF49B00B46386 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C1261F8281FFD7F00B46386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1262092820158F00B46386 /* UnitTestPresenterTests.swift in Sources */,
+				2C1261FF281FFD7F00B46386 /* UnitTestCiceBootcamp2022Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2C1261DE281FF49B00B46386 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C1261DF281FF49B00B46386 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		2C126201281FFD7F00B46386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C1261D4281FF49B00B46386 /* UnitTestCiceBootcamp2022 */;
+			targetProxy = 2C126200281FFD7F00B46386 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		2C1261E3281FF4A200B46386 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +398,6 @@
 				INFOPLIST_FILE = UnitTestCiceBootcamp2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +425,6 @@
 				INFOPLIST_FILE = UnitTestCiceBootcamp2022/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +437,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2C126203281FFD7F00B46386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRQSWUDVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccarrera.ios.UnitTestCiceBootcamp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestCiceBootcamp2022.app/UnitTestCiceBootcamp2022";
+			};
+			name = Debug;
+		};
+		2C126204281FFD7F00B46386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NRQSWUDVWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ccarrera.ios.UnitTestCiceBootcamp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestCiceBootcamp2022.app/UnitTestCiceBootcamp2022";
 			};
 			name = Release;
 		};
@@ -355,6 +493,15 @@
 			buildConfigurations = (
 				2C1261EA281FF4A200B46386 /* Debug */,
 				2C1261EB281FF4A200B46386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C126202281FFD7F00B46386 /* Build configuration list for PBXNativeTarget "UnitTestCiceBootcamp2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C126203281FFD7F00B46386 /* Debug */,
+				2C126204281FFD7F00B46386 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
